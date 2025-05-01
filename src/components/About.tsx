@@ -1,5 +1,6 @@
 
 import { FileDown } from "lucide-react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export function About() {
   return (
@@ -7,6 +8,16 @@ export function About() {
       <div className="container px-4 md:px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="section-title text-center">About Me</h2>
+          
+          <div className="flex flex-col items-center mb-8">
+            <Avatar className="w-32 h-32 border-4 border-primary/20">
+              <AvatarImage 
+                src="/lovable-uploads/322551c7-4b75-4e12-91d7-9a717dc82a04.png" 
+                alt="Omar's profile" 
+              />
+              <AvatarFallback>OM</AvatarFallback>
+            </Avatar>
+          </div>
           
           <div className="prose prose-lg dark:prose-invert mx-auto">
             <p className="mb-6">
