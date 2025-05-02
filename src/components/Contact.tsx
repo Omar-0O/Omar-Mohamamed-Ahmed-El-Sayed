@@ -143,7 +143,7 @@ export function Contact() {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-primary" />
-                <span>omar@example.com</span>
+                <span>omar.nail774@example.com</span>
               </div>
             </div>
           </div>
@@ -152,7 +152,7 @@ export function Contact() {
             <h3 className="text-xl font-bold mb-4">Find Me Online</h3>
             <div className="flex space-x-5 mt-6">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Omar-0O"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-card rounded-full hover:bg-primary/10 transition-colors"
@@ -162,7 +162,7 @@ export function Contact() {
               </a>
               
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/omar-m-ahmed-b40025345/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-card rounded-full hover:bg-primary/10 transition-colors"
@@ -172,7 +172,7 @@ export function Contact() {
               </a>
               
               <a
-                href="https://twitter.com/yourusername"
+                href="https://t.me/omarmohamedQ"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-card rounded-full hover:bg-primary/10 transition-colors"
