@@ -143,7 +143,7 @@ export function Contact() {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-primary" />
-                <span>omar.nail774@example.com</span>
+                <span>omar.nail774@gmail.com</span>
               </div>
             </div>
           </div>
