@@ -257,7 +257,7 @@ export function Contact() {
                     </div>
                     <div>
                       <p className="text-sm font-medium text-muted-foreground">Email</p>
-                      <p className="text-foreground font-semibold">omar.nail774@gmail.com</p>
+                      <p className="text-foreground font-semibold">Contact.OmarMohamed@gmail.com</p>
                     </div>
                   </motion.div>
                 </div>
@@ -288,7 +288,7 @@ export function Contact() {
                     </motion.a>
                     
                     <motion.a
-                      href="https://www.linkedin.com/in/omar-m-ahmed-b40025345/"
+                      href="https://www.linkedin.com/in/omar-mohamed-21467837b/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="group p-6 bg-white/5 border border-white/10 rounded-xl backdrop-blur-sm hover:bg-primary/10 transition-all duration-300 text-center"

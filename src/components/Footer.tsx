@@ -40,7 +40,6 @@ export function Footer() {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <span className="text-center md:text-right">Designed & Built with</span>
             <motion.div
               animate={{
                 scale: [1, 1.2, 1],
