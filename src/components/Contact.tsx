@@ -1,4 +1,3 @@
-
 import { useState, FormEvent, useRef } from "react";
 import { Github, Linkedin, Mail, MessageSquare, Send } from "lucide-react";
 import { motion, useInView } from "framer-motion";
@@ -54,7 +53,7 @@ export function Contact() {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-60 h-60 bg-pink-500 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="container relative z-10 px-4 md:px-6">
+      <div className="container relative z-10 px-4">
         {/* Section Header */}
         <motion.div 
           className="text-center mb-16"
@@ -91,12 +90,12 @@ export function Contact() {
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
         >
           {/* Glassmorphism Container */}
-          <div className="relative bg-white/5 dark:bg-black/20 backdrop-blur-xl rounded-3xl p-8 md:p-12 border border-white/10 shadow-2xl">
+          <div className="relative bg-white/5 dark:bg-black/20 backdrop-blur-xl rounded-3xl p-6 sm:p-8 md:p-12 border border-white/10 shadow-2xl">
             {/* Subtle glow effect */}
             <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-primary/10 via-purple-500/10 to-pink-500/10 opacity-50 blur-xl"></div>
             
             {/* Content */}
-            <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
               {/* Contact Form */}
               <motion.div
                 initial={{ opacity: 0, x: -30 }}
@@ -255,9 +254,9 @@ export function Contact() {
                     <div className="p-3 bg-primary/10 rounded-full">
                       <Mail className="h-6 w-6 text-primary" />
                     </div>
-                    <div>
+                    <div className="flex-1 min-w-0">
                       <p className="text-sm font-medium text-muted-foreground">Email</p>
-                      <p className="text-foreground font-semibold">Contact.OmarMohamed@gmail.com</p>
+                      <p className="text-foreground font-semibold break-words">Contact.OmarMohamed@gmail.com</p>
                     </div>
                   </motion.div>
                 </div>
